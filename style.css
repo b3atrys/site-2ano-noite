@@ -1,3 +1,7 @@
+*{
+    margin: 0%;
+    padding: 0;: ;
+}
 header {
     background-color: #383D58 ;
     color: white ;
@@ -9,10 +13,13 @@ header {
 }
 .cabecalho{
     display:flex;
-
+justify-content: space-around;
+padding: 24px 0;
 }
 
 
 .cabecalho-lista-item{
     display:inline-block;
+    margin: 0 16px;
+    font-size: 24px;
 }
